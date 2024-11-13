@@ -1,5 +1,6 @@
 package MY_DSA;
 
+//Conversion of binary to decimal
 import java.util.Scanner ;
 
 public class BiTODec {

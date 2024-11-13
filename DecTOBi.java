@@ -1,5 +1,7 @@
 package MY_DSA;
 
+//Convesion of decimal to binary
+
 import java.util.Scanner;
 
 public class DecTOBi {
