@@ -16,17 +16,4 @@ public class LastOccuer {
         System.out.println("The last occered index is" + count);
         return count;
     }
-
-    public static void main(String[] args) {
-        Scanner s=new Scanner(System.in);
-        copy c=new copy();
-        System.out.print("Enter the value of n :");
-        int n=s.nextInt();
-        int[] arr=new int[n];
-        c.getArray(n,arr);
-        finder(arr);
-
-    }
-
-
 }
