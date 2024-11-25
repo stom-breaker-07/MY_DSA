@@ -1,5 +1,5 @@
 package MY_DSA;
-
+import java.util.Arrays;
 public class Contains_Duplicate {
     public boolean containsDuplicate(int[] nums) {
         boolean result=false;
