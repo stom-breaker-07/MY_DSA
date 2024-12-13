@@ -17,3 +17,4 @@ public class GfG01 {
         }
     }
 }
+//secound highest of the array
