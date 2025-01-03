@@ -14,7 +14,7 @@ public class Recursion01 {
 
     static int fibbo(int m){
         if(m==0){
-            return 0;
+            return 1;
         }
         if(m==1){
             return 1;
@@ -27,5 +27,7 @@ public class Recursion01 {
         System.out.println("Enter the number :");
         int a=sc.nextInt();
         printnum(a);
+        System.out.println(" ");
+        System.out.println(fibbo(a));
     }
 }
