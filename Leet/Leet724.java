@@ -9,7 +9,7 @@ public class Leet724 {
         for(int i=0;i<nums.length;i++){
             left=(i==0)?0:left+nums[i-1];
             int cur=nums[i];
-            int right=total-left-cur;1
+            int right=total-left-cur;
             if(left == right){
                 return i;
             }
