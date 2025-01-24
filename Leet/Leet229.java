@@ -1,5 +1,8 @@
 package MY_DSA.Leet;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Leet229 {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> a=new ArrayList<>();
