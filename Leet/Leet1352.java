@@ -6,9 +6,9 @@ public class Leet1352 {
     ArrayList<Integer> arr=new ArrayList<>();
     int p=1;
 
-    public ProductOfNumbers() {
+    /*public ProductOfNumbers() {
 
-    }
+    }*/
 
     public void add(int num) {
         if(num == 0){
