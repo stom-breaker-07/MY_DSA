@@ -1,5 +1,7 @@
 package MY_DSA.Leet;
 
+import java.util.Arrays;
+
 public class Leet2974 {
     public int[] numberGame(int[] nums) {
         Arrays.sort(nums);
