@@ -1,6 +1,6 @@
 package MY_DSA.Leet;
 
-public class Leet79 {
+public class Leet079 {
     static boolean[][] cboard = new boolean[7][7];
     static boolean backtrack(char[][] board,int i,int j,String word,int idx ){
         if(idx == word.length()) return true;
