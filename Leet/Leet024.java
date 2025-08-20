@@ -1,6 +1,6 @@
 package MY_DSA.Leet;
 
-public class Leet24 {
+public class Leet024 {
       public class ListNode {
           int val;
           ListNode next;
