@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Leet90 {
+public class Leet090 {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> result=new ArrayList<>();
         Arrays.sort(nums);
