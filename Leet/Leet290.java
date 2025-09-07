@@ -1,5 +1,7 @@
 package MY_DSA.Leet;
 
+import java.util.HashMap;
+
 public class Leet290 {
     public boolean wordPattern(String pattern, String s) {
         HashMap<Character,String> map1 = new HashMap<>();
