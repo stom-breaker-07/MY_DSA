@@ -1,5 +1,7 @@
 package MY_DSA.Leet;
 
+import java.util.Stack;
+
 public class Leet496 {
     static int getIndex(int[] arr,int val){
         int len=arr.length;
