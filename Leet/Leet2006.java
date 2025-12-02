@@ -12,4 +12,5 @@ public class Leet2006 {
         }
 
         return c;
+    }
 }
