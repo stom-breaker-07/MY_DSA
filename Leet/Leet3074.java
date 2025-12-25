@@ -1,5 +1,7 @@
 package MY_DSA.Leet;
 
+import java.util.Arrays;
+
 public class Leet3074 {
     public int minimumBoxes(int[] apple, int[] capacity) {
         int Totalpack=0;
