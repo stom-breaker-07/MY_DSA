@@ -2,23 +2,26 @@ package MY_DSA.Leet;
 
 public class Leet2483 {
     public int bestClosingTime(String customers) {
-        int idx=0,Ys=0,Ns=0,Min=10000;
-        for(int i=0;i<customers.length();i++){
-            if(customers.charAt(i)=='Y'){
-                Ys++;
+        int penalty = 0;
+        for (char c : customers.toCharArray()) {
+            if (c == 'Y') penalty++;
+        }
+
+        int minPenalty = penalty;
+        int bestTime = 0;
+
+        for (int i = 0; i < customers.length(); i++) {
+            if (customers.charAt(i) == 'Y') {
+                penalty--;   // now served
+            } else {
+                penalty++;   // wasted open hour
+            }
+
+            if (penalty < minPenalty) {
+                minPenalty = penalty;
+                bestTime = i + 1;
             }
         }
-        for(int i=0;i<customers.length();i++){
-            if(customers.charAt(i)=='Y'){
-                Ys--;
-            }else{
-                Ns++;
-            }
-            if(Min > Ys+Ns){
-                idx=i;
-                Min=Ys;
-            }
-        }
-        return (idx>0)?idx+1:idx;
+        return bestTime;
     }
 }
