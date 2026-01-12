@@ -1,8 +1,7 @@
 package MY_DSA.CodeChef;
 
 public class CCFindtheLengthoftheLinkedList {
-    class Node
-    {
+    class Node extends CCdetectCycle.Node {
         int data;
         CCdetectCycle.Node next;
         Node(int d) {data = d; next = null; }
