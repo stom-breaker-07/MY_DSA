@@ -1,5 +1,7 @@
 package MY_DSA.Leet;
 
+import java.util.List;
+
 public class Leet3315 {
     public int[] minBitwiseArray(List<Integer> nums) {
         int len=nums.size();
